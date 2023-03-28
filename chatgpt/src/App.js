@@ -35,7 +35,7 @@ function App() {
     setInput("");
     setChatLog(chatLogNew);
     setLoading(true)
-    const response = await fetch("http://localhost:4000/", {
+    const response = await fetch("http://68.183.133.104:4000/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
